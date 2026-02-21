@@ -1,1 +1,233 @@
-# Github--portfolio
+<!-- Hello 😊 -->
+
+<!-- This template is designed and developed by Harish Kanna
+for anyone to use for free or customize the way they like.
+
+Github Repo: https://github.com/harishkanna-16/Github--portfolio
+
+For business & inquiries, contact me => harishkanna1607@gmail.com
+-->
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harish Kanna | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#0f0f0f;
+    color:#ffffff;
+    line-height:1.6;
+}
+
+header{
+    background:#111;
+    text-align:center;
+    padding:60px 20px;
+    border-bottom:3px solid #ff6600;
+}
+
+header h1{
+    font-size:42px;
+    color:#ff6600;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+    color:#ccc;
+}
+
+nav{
+    background:#1a1a1a;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:#fff;
+    margin:0 20px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#ff6600;
+}
+
+section{
+    padding:60px 20px;
+    max-width:1000px;
+    margin:auto;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#ff6600;
+}
+
+.card{
+    background:#1c1c1c;
+    padding:20px;
+    margin:20px 0;
+    border-radius:8px;
+    border-left:5px solid #ff6600;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.skills span{
+    display:inline-block;
+    background:#ff6600;
+    color:#000;
+    padding:10px 15px;
+    margin:5px;
+    border-radius:4px;
+    font-weight:bold;
+}
+
+footer{
+    background:#111;
+    text-align:center;
+    padding:20px;
+    border-top:3px solid #ff6600;
+    margin-top:40px;
+}
+
+a{
+    color:#ff6600;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Harish Kanna</h1>
+    <p>Embedded Systems Enthusiast | Web Developer | Programmer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects & Certifications</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am a passionate developer with strong interest in Embedded Systems, 
+            Web Development, and problem solving. I enjoy building practical 
+            hardware and software solutions using Arduino, ESP32, and modern 
+            web technologies. My goal is to continuously learn and create 
+            impactful technology-driven solutions.
+        </p>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects & Certifications</h2>
+
+    <!-- Arduino Project -->
+    <div class="card">
+        <h3>Arduino UNO Project (Wokwi Simulation)</h3>
+        <p>Developed an Arduino UNO based project using Wokwi online simulator.</p>
+        <p><strong>Platform:</strong> Wokwi</p>
+        <p>
+            <a href="https://wokwi.com/projects/449436268595418113" target="_blank">
+                View Project
+            </a>
+        </p>
+    </div>
+
+    <!-- Python Certificate -->
+    <div class="card">
+        <h3>Crash Course on Python – Google</h3>
+        <p><strong>Platform:</strong> Coursera</p>
+        <p>Successfully completed Python fundamentals course authorized by Google.</p>
+        <p>
+            <a href="https://coursera.org/verify/2DZ1JLL28SYJ" target="_blank">
+                Verify Certificate
+            </a>
+        </p>
+    </div>
+
+    <!-- AI Certificate -->
+    <div class="card">
+        <h3>Artificial Intelligence Certification</h3>
+        <p>Successfully completed certification in Artificial Intelligence.</p>
+        <p><strong>Certificate ID:</strong> LEDCCN2619</p>
+    </div>
+
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>C++</span>
+        <span>Python</span>
+        <span>HTML</span>
+        <span>Java</span>
+        <span>CSS</span>
+        <span>ESP32</span>
+        <span>Arduino</span>
+    </div>
+
+    <div class="card">
+        <h3>Platforms I Use to Improve My Skills</h3>
+        <p>• LinkedIn</p>
+        <p>• LeetCode</p>
+        <p>• GitHub</p>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Experience & Achievements</h2>
+    <div class="card">
+        <p>• Helping people learn languages to empower them through communication skills.</p>
+        <p>• Actively building projects and improving technical expertise.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: harishkanna1607@gmail.com</p>
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/harish-kanna-881b22387?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+                View Profile
+            </a>
+        </p>
+        <p>
+            GitHub:
+            <a href="https://github.com/harishkanna-16" target="_blank">
+                github.com/harishkanna-16
+            </a>
+        </p>
+        <p>Location: Virudhunagar, India</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Harish Kanna | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
