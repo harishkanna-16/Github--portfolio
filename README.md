@@ -7,87 +7,78 @@
 
 ## About
 
-This repository contains my personal developer portfolio, built to document my growth in software development and embedded systems. It brings together selected projects, certifications, skills, and links to my professional profiles in one place.
+This repository contains my personal developer portfolio, built to document my growth in software development and embedded systems. It brings together selected projects, certifications, skills, and professional links in one place.
 
-I am currently pursuing a **B.Tech in Computer Science and Engineering** and continuously building practical projects while strengthening my programming, problem-solving, web development, and embedded-systems skills.
+I am currently pursuing a **B.Tech in Computer Science and Engineering** and learning by building practical projects while strengthening my programming, problem-solving, web development, database, and embedded-systems skills.
 
 ## Highlights
 
 - Responsive portfolio website
 - Dark-themed developer-focused design
+- Mobile navigation with keyboard-friendly controls
 - Project showcase with external demos and resources
-- Technical skills and learning platforms
-- Certifications section
-- Professional profile and contact links
-- Semantic HTML and responsive CSS
+- Technical skills and learning journey
+- Certifications and verification links
+- Semantic HTML, responsive CSS, and lightweight JavaScript
 
 ## Featured Projects
 
 ### Campus Connect
-A student-focused dashboard project built around a practical campus-management use case, with interactive UI features and client-side functionality.
+A student-focused dashboard with authentication, local storage, validation, notices, counters, calendar, dark mode, and an interactive interface.
 
 **Technologies:** HTML, CSS, JavaScript, Electron
 
-### ESP32 / Embedded Systems Projects
-Hands-on projects involving microcontrollers, sensors, automation, and practical hardware-software integration.
+### Arduino UNO — Wokwi
+An Arduino-based embedded project developed and tested using the Wokwi online simulator.
 
-**Technologies:** ESP32, Arduino, Wokwi, C/C++
+**Technologies:** Arduino, Wokwi, Embedded Systems
 
-### ShopEase — DBMS Project
-A database-oriented academic project focused on modelling products, categories, rules, and orders using relational database concepts.
+[Live simulation](https://wokwi.com/projects/449436268595418113)
 
-**Technologies:** DBMS, SQL, Relational Algebra
+### ESP32 Smart Projects
+Hands-on experiments involving microcontrollers, sensors, automation, and practical hardware-software integration.
 
-## Certifications
+**Technologies:** ESP32, Arduino, C/C++, IoT
 
-- **Crash Course on Python — Google / Coursera**
-- **Artificial Intelligence Certification**
+### ShopEase — DBMS
+A database-oriented academic project focused on products, categories, rules, orders, relational modelling, constraints, and SQL concepts.
+
+**Technologies:** DBMS, SQL, ER Model, Relational Algebra
 
 ## Tech Stack
 
-### Programming
-
-`Python` `Java` `C` `C++`
-
-### Web Development
-
-`HTML` `CSS` `JavaScript`
-
-### Embedded Systems
-
-`ESP32` `Arduino` `Wokwi`
-
-### Tools & Platforms
-
-`Git` `GitHub` `VS Code` `LeetCode`
+| Area | Technologies |
+| --- | --- |
+| Programming | Python, Java, C, C++ |
+| Web | HTML, CSS, JavaScript |
+| Data | SQL, DBMS, Relational Algebra |
+| Embedded | ESP32, Arduino, Wokwi |
+| Tools | Git, GitHub, VS Code, LeetCode |
 
 ## Repository Structure
 
 ```text
 Github--portfolio/
 ├── index.html      # Main portfolio website
-└── README.md       # Project documentation
+├── script.js       # Navigation behaviour and dynamic footer year
+├── README.md       # Project documentation
+└── .gitignore      # Local/editor files excluded from Git
 ```
 
-## Getting Started
+## Run Locally
 
-You can run the portfolio locally without installing any dependencies.
-
-1. Clone the repository:
+No dependencies are required.
 
 ```bash
 git clone https://github.com/harishkanna-16/Github--portfolio.git
+cd Github--portfolio
 ```
 
-2. Open the project folder.
-
-3. Open `index.html` in your browser.
-
-For development, opening the folder in **VS Code** and using a local development server such as Live Server is recommended.
+Then open `index.html` in a browser. For a smoother development workflow, open the folder in VS Code and use a local server such as Live Server.
 
 ## Learning Goals
 
-I am currently focused on improving my foundations and building progressively stronger projects in:
+My current focus is to build stronger foundations and progressively larger projects in:
 
 - Data Structures and Algorithms
 - Java and Python programming
@@ -97,15 +88,20 @@ I am currently focused on improving my foundations and building progressively st
 - Artificial Intelligence
 - Software engineering and Git/GitHub workflows
 
+## Certifications
+
+- **Crash Course on Python — Google / Coursera**
+- **Artificial Intelligence Certification — Certificate ID: LEDCCN2619**
+
 ## Connect
 
 - **GitHub:** [harishkanna-16](https://github.com/harishkanna-16)
 - **LinkedIn:** [Harish Kanna](https://www.linkedin.com/in/harish-kanna-881b22387/)
-- **Portfolio:** [View Repository](https://github.com/harishkanna-16/Github--portfolio)
+- **Portfolio:** [View repository](https://github.com/harishkanna-16/Github--portfolio)
 
 ## License
 
-This portfolio is a personal project. The source can be used as a reference or starting point, with appropriate attribution.
+This is a personal portfolio project. The source is available for learning and reference.
 
 ---
 
