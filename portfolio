@@ -144,6 +144,18 @@ a{
 <section id="projects">
     <h2>Projects & Certifications</h2>
 
+    <!-- FocusFlow Project -->
+    <div class="card">
+        <h3>FocusFlow – Student Productivity App</h3>
+        <p>A student productivity and study management app with task management, focus timer, authentication, and saved tasks.</p>
+        <p><strong>Tech Stack:</strong> React, TypeScript, PostgreSQL, Floot</p>
+        <p>
+            <a href="https://harish-focusflow.floot.app" target="_blank">Live Demo</a>
+            | 
+            <a href="https://github.com/harishkanna-16/FocusFlow" target="_blank">GitHub Repository</a>
+        </p>
+    </div>
+
     <!-- Arduino Project -->
     <div class="card">
         <h3>Arduino UNO Project (Wokwi Simulation)</h3>
@@ -162,7 +174,7 @@ a{
         <p><strong>Platform:</strong> Coursera</p>
         <p>Successfully completed Python fundamentals course authorized by Google.</p>
         <p>
-            <a href="https://coursera.org/verify/2DZ1JLL28SYJ" target="_blank">
+            <a href="https://coursera.org/verify/2DZ1JLL28SY" target="_blank">
                 Verify Certificate
             </a>
         </p>
